@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/minigzip64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 minigzip64"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/minigzip64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 minigzip64/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/libzlibstatic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/libzlibstatic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/minigzip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/minigzip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/example64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 example64"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64/fast">
+				<Option output="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/example64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+					<Add directory="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 example64/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/adler32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/zconf.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/zlib1rc.obj">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/zlib1rc.obj.rule">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/compress.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/crc32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/crc32.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/deflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/deflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/gzclose.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/gzguts.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/gzlib.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/gzread.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/gzwrite.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/infback.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inffast.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inffast.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inffixed.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inftrees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/inftrees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/test/example.c">
+			<Option target="example"/>
+			<Option target="example64"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/test/minigzip.c">
+			<Option target="minigzip64"/>
+			<Option target="minigzip"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/trees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/trees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/uncompr.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/zlib.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/zutil.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/zutil.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,13 @@
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/minigzip64.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/zlib.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/zlibstatic.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/example.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/minigzip.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/example64.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/test.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/list_install_components.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/install/local.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/install.dir
+C:/Users/shvet/Documents/ITMO_subjects/2sem/cplusplus/labs/zlib-1.2.12/cmake-build-release/CMakeFiles/install/strip.dir

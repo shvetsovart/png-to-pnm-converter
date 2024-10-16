@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/minigzip64.dir/test/minigzip.obj"
+  "libminigzip64.dll.a"
+  "minigzip64.exe"
+  "minigzip64.exe.manifest"
+  "minigzip64.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/minigzip64.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+Implementation of a PNG to PNM image formats converter. The code is located in files "c2.c", "return_codes.h", "makegif/makegif.py", all other files are either used libraries or some goofy images that you can play with. As you can see, there's also a python script that transfers several images info one .gif file.
